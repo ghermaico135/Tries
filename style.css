@@ -1,0 +1,40 @@
+.app{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 0 auto;
+    padding: 10px   ;
+    box-shadow:0 0 3px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.todos li{
+    padding: 10px;
+    background: blue;
+    color: white;
+    width: 300px;
+    margin: 10px;
+}
+
+
+.entry{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.entry input{
+    height: inherit;
+    width: 80%;
+    border: none;
+    outline: none;
+}
+.entry button{
+    height: inherit;
+    border: none;
+}
